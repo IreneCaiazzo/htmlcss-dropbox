@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-section{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.header-list{
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.header-link{
+    text-decoration: none;
+    color: black;
+}
+
+.header-right{
+    margin-left: 30px;
+}
+
+.header-left{
+    margin-right: 30px;
+}
+
+.btn-header{
+    border: none;
+    padding: .3em;
+    padding-inline: .7em;
+}
+
+.white-header{
+    margin-right: 5px;
+    background-color: white;
+}
+
+.blue-header{
+    color: white;
+}
+
+/* Jumbo */
