@@ -1,3 +1,5 @@
+/* header */
+
 .blue-header{
     background-color: blue;
 }
@@ -8,4 +10,10 @@
 
 .blue-jumbo{
     background-color: blue;
+}
+
+/* main */
+
+.radio{
+    color: blue;
 }
