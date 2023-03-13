@@ -52,3 +52,58 @@ nav{
 }
 
 /* Jumbo */
+
+.jumbo{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+
+.display-jumbo{
+    display: flex;
+    align-content: first baseline; TODO: capire come allineare testo e immagine
+}
+
+.jumbo-text{
+    margin: 50px;
+    max-width: 50%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.jumbo-title{
+    font-size: 50px;
+}
+
+.btn-jumbo{
+    text-align: left;
+    margin-top: 20px;
+    max-width: max-content;
+    border: none;
+    
+}
+
+.blue-jumbo{
+    padding: 1em;
+    color: white;
+}
+
+.white-jumbo{
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.bi-arrow-down{
+    margin-top: 20px;
+}
+
+.jumbo-img-container{
+    position: relative;
+}
+
+.jumbo-img{
+    max-width: 500px;
+    position: absolute;
+    left: -20px;
+    top:70px
+}
