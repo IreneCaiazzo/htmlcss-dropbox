@@ -144,6 +144,11 @@ main .container{
     gap: 50px;
 }
 
+.display-tab{
+    display: flex;
+    gap: 3em;
+}
+
 .tab{
     margin-top: 50px;
 
@@ -152,6 +157,7 @@ main .container{
 .tab-header, .tab-main{
     padding: 1em;
     border: 1px solid grey;
+    text-align: center;
 }
 
 .tab-main{
@@ -182,8 +188,24 @@ main .container{
     width: fit-content;
     padding: 1em;
     border: none;
+    align-self: center;
 }
 
 .tab-list{
    list-style: none; 
+}
+
+.tab-main-horizontal{
+    display: flex;
+    gap: 4em;
+    padding: 1em;
+    border: 1px solid grey;
+}
+
+.btn-blue-main-horizontal{
+    color:white;
+    width: 175.59px;
+    height: 41.66px;
+    padding: 1em;
+    border: none;
 }
