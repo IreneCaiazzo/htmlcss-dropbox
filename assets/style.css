@@ -72,19 +72,23 @@ body{
 
 .display-jumbo{
     display: flex;
-    align-content: first baseline; TODO: capire come allineare testo e immagine
+    width: 1200px;
+    margin-top: 50px;
+    /* align-content: first baseline; TODO: capire come allineare testo e immagine */
 }
 
 .jumbo-text{
-    margin: 50px;
-    max-width: 50%;
+    margin-left: 100px;
+    width: 30%;
     text-align: left;
     display: flex;
     flex-direction: column;
+    gap:20px
 }
 
 .jumbo-title{
-    font-size: 50px;
+    font-size: 6em;
+    padding-top: 50px;
 }
 
 .btn-jumbo{
@@ -109,14 +113,16 @@ body{
 }
 
 .jumbo-img-container{
-    position: relative;
+    /* position: relative; */
+    width: 70%;
 }
 
 .jumbo-img{
-    max-width: 500px;
-    position: absolute;
-    left: -20px;
-    top:70px
+    width: 100%;
+    margin-bottom: -70px;
+    /* position: absolute; */
+    /* left: -20px;
+    top:70px; */
 }
 
 /* main */
@@ -127,14 +133,15 @@ main .container{
 
 }
 
+.section1-title{
+    font-size: 3em;
+    margin-top: 150px;
+}
+
 .fatturazione{
     margin-top: 50px;
     display: flex;
     gap: 50px;
-}
-
-.section1-title{
-    font-size: 2em;
 }
 
 .tab{
@@ -150,7 +157,31 @@ main .container{
 .tab-main{
     display: flex;
     flex-direction: column;
-    gap: 1.5em;
+    /* line-height: 2em; */
+}
+
+.main-tab-title{
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.small-spacing{
+    margin-bottom: .8em;
+}
+
+.big-spacing{
+    margin-bottom: 1.5em;
+}
+
+.biggest-spacing{
+    margin-bottom: 2em;
+}
+
+.btn-blue-main{
+    color: white;
+    width: fit-content;
+    padding: 1em;
+    border: none;
 }
 
 .tab-list{
