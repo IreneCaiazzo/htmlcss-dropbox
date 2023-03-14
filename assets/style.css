@@ -209,3 +209,36 @@ main .container{
     padding: 1em;
     border: none;
 }
+
+/* second section */
+
+.container-section-2{
+    width: 1000px;
+    margin: 5em auto;
+    display: flex;
+    gap: 3em;
+}
+
+.img-second-section{
+    width: 60%;
+}
+
+.text-section-2{
+    margin-top: 4em;
+}
+
+.second-section-title{
+    font-size: 1.7em;
+    margin-bottom: 1em;
+}
+
+.section-2-p{
+    margin-bottom: 2em;
+    padding-right: 3em;
+}
+
+.btn-section-2{
+    background-color: white;
+    padding: 1em;
+    border: 1px solid black;
+}
