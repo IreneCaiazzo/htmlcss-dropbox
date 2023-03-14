@@ -7,8 +7,19 @@
 /* header */
 
 nav{
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    height: 80px;
     display: flex;
     justify-content: space-between;
+}
+
+body{
+    margin-top: 80px;
 }
 
 .header-section{
@@ -124,4 +135,24 @@ main .container{
 
 .section1-title{
     font-size: 2em;
+}
+
+.tab{
+    margin-top: 50px;
+
+}
+
+.tab-header, .tab-main{
+    padding: 1em;
+    border: 1px solid grey;
+}
+
+.tab-main{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+}
+
+.tab-list{
+   list-style: none; 
 }
