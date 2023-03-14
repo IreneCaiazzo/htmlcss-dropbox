@@ -245,8 +245,9 @@ main .container{
 
 /* third section  */
 
-.title-section-3{
+.title-section-3, .title-section-4{
     font-size: 2.5em;
+    margin-bottom: 2em;
 }
 
 .caption-container{
@@ -256,7 +257,8 @@ main .container{
 
 .display-section-3{
     width: 1000px;
-    margin: 3em auto;
+    margin: 0 auto;
+    margin-bottom: 10em;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -271,4 +273,10 @@ main .container{
 .subtitle-section-3{
     font-size: 1.7em;
     margin-bottom: 1.5em;
+}
+
+/* fourth section */
+
+.title-section-4{
+    max-width: 60%;
 }
