@@ -191,6 +191,18 @@ main .container{
     align-self: center;
 }
 
+.separator{
+    margin-bottom: 3em;
+}
+
+.separator::after{
+    content: "";
+    display: block;
+    width: 30%;
+    border-bottom: 1px solid grey;
+    padding-bottom: 3em;
+}
+
 .tab-list{
    list-style: none; 
 }
@@ -314,6 +326,25 @@ main .container{
     padding-bottom: 3em;
 }
 
+.central-logo-container::after{
+    margin-bottom: 3em;
+    content: "";
+    display: block;
+    width: 30%;
+    border-bottom: 1px solid grey;
+}
+
 .text-sec-5{
     margin-bottom: 3em;
+}
+
+/* sixth section */
+
+.sec-6{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
 }
