@@ -157,13 +157,15 @@ main .container{
 .tab-header, .tab-main{
     padding: 1em;
     border: 1px solid grey;
+}
+
+.tab-header{
     text-align: center;
 }
 
 .tab-main{
     display: flex;
     flex-direction: column;
-    /* line-height: 2em; */
 }
 
 .main-tab-title{
@@ -340,11 +342,29 @@ main .container{
 
 /* sixth section */
 
-.sec-6{
-    display: flex;
-    justify-content: space-between;
+.container-sec-6{
     width: 1000px;
     margin: auto;
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.sec-6-title{
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+
+.sec-6-title{
+    font-size: 2em;
+}
+
+.btn-sec-6{
+    width: 200px;
+    height: 2.5em;
+    padding-inline: 1.5em;
+    background-color: white;
+    border: none;
 }
