@@ -74,7 +74,6 @@ body{
     display: flex;
     width: 1200px;
     margin-top: 50px;
-    /* align-content: first baseline; TODO: capire come allineare testo e immagine */
 }
 
 .jumbo-text{
@@ -390,4 +389,52 @@ main .container{
     padding-bottom: 2em;
     padding-right: 2em;
     border-bottom: 1px solid black;
+}
+
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+.footer-container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-title{
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-list{
+    list-style: none;
+}
+
+.separator-footer::after{
+    content: "";
+    display: block;
+    width: 80%;
+    border-bottom: 1px solid white;
+    padding-bottom: 3em;
+    margin-bottom: 3em;
+}
+
+.footer-link{
+    text-decoration: none;
+    color: white;
+    line-height: 2em;
+}
+
+.footer-language{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.lang{
+    padding-inline: .3em;
 }
