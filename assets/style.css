@@ -368,3 +368,26 @@ main .container{
     background-color: white;
     border: none;
 }
+
+/* seventh section */
+
+.sec-7{
+    max-width: 1000px;
+    margin: 6em auto 6em;
+
+}
+
+.sec-7-title{
+    font-size: 2em;
+    border-bottom: 1px solid black;
+    padding-bottom: 1.5em;
+}
+
+.faq{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 2em;
+    border-bottom: 1px solid black;
+}
