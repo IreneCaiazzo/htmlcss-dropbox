@@ -1,75 +1,75 @@
 /* header */
 
 .blue-header{
-    background-color: blue;
+    background-color: #0061FF;
 }
 
 .jumbo-container{
-    background-color: aquamarine;
+    background-color: #B4D0E7;
 }
 
 .blue-jumbo{
-    background-color: blue;
+    background-color: #0061FF;
 }
 
 /* main */
 
 .radio{
-    color: blue;
+    color: #0061FF;
 }
 
 .btn-blue-main, .btn-blue-main-horizontal{
-    background-color: blue;
+    background-color: #0061FF;
 }
 
 .bi-check-lg{
-    color: blue;
+    color: #0061FF;
 }
 
 /* fifth section  */
 
 .green-logo{
-    background-color: green;
+    background-color: #A2D39B;
 }
 
 .d-red-logo{
-    background-color: darkred;
+    background-color: #61082B;
 }
 
 .b-blue-logo{
-    background-color: cyan;
+    background-color: #0093CE;
 }
 
 .b-red-logo{
-    background-color: tomato;
+    background-color: #FF1C1C;
 }
 
 .central-sec-5{
-    background-color: burlywood;
+    background-color: #F5F5F5;
 }
 
 .red-logo{
-    background-color: red;
+    background-color: #D5001F;
 }
 
 .l-blue-logo{
-    background-color: aqua;
+    background-color: #B4D0E7;
 }
 
 .blue-logo{
-    background-color: blue;
+    background-color: #0D2481;
 }
 
 .yellow-logo{
-    background-color: yellow;
+    background-color: #FFD830;
 }
 
 /* sixth section */
 
 .sec-6{
-    background-color: cornflowerblue;
+    background-color: #B4D0E7;
 }
 
 .sec-6-title{
-    color: darkred;
+    color: #61082B;
 }
